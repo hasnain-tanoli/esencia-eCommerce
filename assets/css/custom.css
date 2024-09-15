@@ -1,0 +1,120 @@
+/*
+Custom Css
+*/
+
+.blue {
+    color: #2c415f;
+}
+
+.margin-left{
+    margin-left: 130px;
+}
+
+.shrink{
+    width: 350px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+}
+.jacket{
+    width: 380px;
+}
+.hair{
+    width: 300px;
+}
+
+.logo{
+    width: 200px;
+    height: 50px;
+}
+/* Banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/b1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+  }
+  .banner h1 {
+    color: white;
+    font-size: 3.5vw;
+    font-family: "REM", sans-serif;
+  }
+  .banner h1 span {
+    color: #e82420;
+  }
+  .banner p {
+    color: white;
+    font-size: 2.5vw;
+    font-family: "REM", sans-serif;
+  }
+  .banner button {
+    color: #0d0c22;
+    font-size: 1.1vw;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .banner button:hover {
+    background-color: #e82420;
+    color: white;
+  }
+  
+  /* Newsletter */
+  .newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    background-color: #e9eef5;
+    padding: 10px 8vw;
+  }
+  .newsletter .n-text h2 {
+    color: #212934;
+    font-size: 2vw;
+    font-family: "REM", sans-serif;
+  }
+  .newsletter .n-text p {
+    color: #212934;
+    font-size: 1vw;
+  }
+  .newsletter .n-text p span {
+    color: rgb(244, 184, 33);
+    font-size: 1.5vw;
+  }
+  .subscribe {
+    display: flex;
+    width: 40%;
+  }
+  .newsletter input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 4px 0 0 4px;
+    width: 100%;
+    outline: none;
+  }
+  .newsletter button {
+    height: 3.125rem;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 0 4px 4px 0;
+    width: 30%;
+    outline: none;
+    color: white;
+    background-color: #e82420;
+    cursor: pointer;
+  }
+  .newsletter button:hover {
+    background-color: #0c438d;
+  }
+  
